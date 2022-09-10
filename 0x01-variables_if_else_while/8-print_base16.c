@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: prints base 16 numbers
- * Return Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -17,6 +17,6 @@ int main(void)
 	{
 		putchar(i);
 	}
-	putchr('\n');
+	putchar('\n');
 	return (0);
 }
