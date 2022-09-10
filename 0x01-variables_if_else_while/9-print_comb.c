@@ -2,8 +2,9 @@
 #include <unistd.h>
 /**
  * main - entry point
- * Description: Always 0 (success)
- */
+ * Description: prints numbers
+ * Return: Always 0 (success)
+*/
 int main(void)
 {
 	int i;
