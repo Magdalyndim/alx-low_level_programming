@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <inistd.h>
 /**
  * main - Entry point
  * Description: prints base 16 numbers
@@ -8,20 +7,18 @@
 int main(void)
 {
 
-char c;
-char d = '0';
+int i;
 
-while (d <= '9')
+for (i = 48; i < 58; i++)
 
 {
-	putchar(d);
-	d++;
+	putchar(i);
 }
 
-for (c = 'a'; c <= 'f'; c++)
+for (i = 98; i < 103; i++)
 
 {
-	putchar(c);
+	putchar(i);
 }
 
 putchar('\n');
