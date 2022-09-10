@@ -7,17 +7,15 @@
  */
 int main(void)
 {
-	char c;
-	char d = '0';
+	int i;
+	for (i = 48; i < 58; i++)
 
-	while (d <= '9')
 	{
-		putchar(d);
-		d++;
+		putchar(i);
 	}
-	for (c = 'a'; c <= 'f'; c++)
+	for (i = 97; i < 103; i++)
 	{
-		putchar(c)
+		putchar(i);
 	}
 	putchr('\n');
 	return (0);
