@@ -22,7 +22,7 @@ if (e != i && e != g && i != g && e < i && i < g)
 	putchar(e);
 	putchar(i);
 	putchar(g);
-	else if (i == 56 && e == 55 && g == 57)
+if (i == 56 && e == 55 && g == 57)
 	{
 		break;
 	}
