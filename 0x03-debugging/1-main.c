@@ -5,11 +5,8 @@
  * Return: 0
  */
 
-int postitive_or_negative(void)
+int main(void)
 {
-	int i; 
-	i = 0;
-
 	printf("Infinite loop incoming :(\n");
 
 	/*
